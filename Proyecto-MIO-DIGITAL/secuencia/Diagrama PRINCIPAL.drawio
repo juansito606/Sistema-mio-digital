@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="aXZMAVuWG6VHVC_IjedW">
+    <mxGraphModel dx="1414" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xYeOheYH34C5Z32ravQf-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Usuario" vertex="1">
+          <mxGeometry height="628" width="150" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="App Movil" vertex="1">
+          <mxGeometry height="628" width="150" x="321" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema MIO" vertex="1">
+          <mxGeometry height="628" width="150" x="616" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Pasarela de Pago" vertex="1">
+          <mxGeometry height="628" width="150" x="816" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-32" edge="1" parent="1" source="xYeOheYH34C5Z32ravQf-28" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xYeOheYH34C5Z32ravQf-29" value="Abrir aplicación">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-33" edge="1" parent="1" source="xYeOheYH34C5Z32ravQf-28" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xYeOheYH34C5Z32ravQf-29" value="Iniciar sesión">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-34" edge="1" parent="1" source="xYeOheYH34C5Z32ravQf-28" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xYeOheYH34C5Z32ravQf-29" value="Seleccionar opción de recarga">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-35" edge="1" parent="1" source="xYeOheYH34C5Z32ravQf-29" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xYeOheYH34C5Z32ravQf-30" value="Solicitar recarga de tarjeta">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-36" edge="1" parent="1" source="xYeOheYH34C5Z32ravQf-29" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xYeOheYH34C5Z32ravQf-31" value="Enviar datos de pago">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-37" edge="1" parent="1" source="xYeOheYH34C5Z32ravQf-31" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="xYeOheYH34C5Z32ravQf-29" value="Confirmación de pago exitoso">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-38" edge="1" parent="1" source="xYeOheYH34C5Z32ravQf-29" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xYeOheYH34C5Z32ravQf-30" value="Confirmar recarga">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-39" edge="1" parent="1" source="xYeOheYH34C5Z32ravQf-30" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="xYeOheYH34C5Z32ravQf-29" value="Recarga aplicada correctamente">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xYeOheYH34C5Z32ravQf-40" edge="1" parent="1" source="xYeOheYH34C5Z32ravQf-29" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="xYeOheYH34C5Z32ravQf-28" value="Mostrar confirmación de recarga">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="257" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
